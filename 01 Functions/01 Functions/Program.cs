@@ -13,7 +13,7 @@
 
         // Function hier
         internal void Run() {
-
+            Console.WriteLine("Dit is nu de start van mijn programma");
         }
 
     }
