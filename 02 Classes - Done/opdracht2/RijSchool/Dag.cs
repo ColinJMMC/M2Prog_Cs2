@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace RijSchool
 {
-    internal class LesUur
+    internal class Dag
     {
-        internal int tijd;
-        internal Student student;
-        internal RijLeraar rijLeraar;
-        internal Auto auto;
+        internal DateTime datum;
+        internal Lesuur[] lesuren;
+        
+        
     }
 }

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace RijSchool
 {
-    internal class Dag
+    internal class RijLeraarcs
     {
-        internal DateTime datum;
-        internal LesUur[] lesuren;
+        internal string naam;
+        internal int leeftijd;
+        internal bool zzp;
     }
 }

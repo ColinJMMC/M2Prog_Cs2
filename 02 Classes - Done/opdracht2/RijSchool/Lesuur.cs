@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace RijSchool
 {
-    internal class RijLeraar
+    internal class Lesuur
     {
-        internal string naam;
-        internal int leeftijd;
-        internal bool zzp;
+        internal int tijd;
+        internal Student student;
+        internal RijLeraarcs rijLeraar;
+        internal Auto auto;
     }
 }
